@@ -1,0 +1,9 @@
+.tous_etudiants {
+    color: var(--main-color);
+}
+
+.nbre_mails {
+
+    font-weight: 600;
+    font-size: 1.5rem;
+}

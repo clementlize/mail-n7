@@ -1,0 +1,16 @@
+a {
+    color:inherit;
+}
+
+a:hover{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.howto {
+    font-size: .8rem;
+}
+
+.text-justify {
+    text-align: justify;
+}

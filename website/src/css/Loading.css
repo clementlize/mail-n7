@@ -1,0 +1,9 @@
+#main_container {
+
+    position: absolute;
+}
+
+#loading_text {
+    color: var(--green);
+    font-size: 1rem;
+}

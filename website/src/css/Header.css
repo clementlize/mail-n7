@@ -1,0 +1,63 @@
+header {
+
+    background-color: var(--main-color);
+}
+
+#header_title{
+    color: var(--main-color);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#header_subtitle{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.btn-outline-main-color{
+
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+#text_header {
+    color: white;
+}
+
+.animate{
+    animation: log_animation 3s;
+}
+
+@keyframes log_animation {
+    50% {
+      text-shadow: #FFF 5px 0 10px;
+  }
+}
+
+#refresh_button.animate2 {
+
+    animation: refresh_animation 1s infinite;
+}
+
+@keyframes refresh_animation {
+    50% {
+      box-shadow: #FFF 0px 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+    #header_title{
+        font-size: 2rem;
+    }
+
+    #header_subtitle{
+        font-size: 1rem;
+    }
+
+    .btn-outline-main-color{
+
+        font-size: .7rem;
+    }
+}
