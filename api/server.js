@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log(process.env.SQL_USER);
 
 var express = require('express'),
   app = express(),
