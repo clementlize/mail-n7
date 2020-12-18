@@ -13,8 +13,8 @@ var mysql = require('mysql');
 // SQL CREDENTIALS FOR PRODUCTION
 var sqlconnect = mysql.createConnection({
     host: process.env.SQL_HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
+    user: process.env.SQL_USER,
+    password: process.env.SQL_PASSWORD,
     database: "N7"
 });
 
